@@ -1,0 +1,6 @@
+module PHUIKit {
+  umbrella header "PHUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-YSwift/Pods-YSwift-resources.sh
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/PHUIKit/PHUIKit/Resources/Assets.xcassets
+${PODS_ROOT}/PHUIKit/PHUIKit/Resources/PHButton.bundle
+${PODS_ROOT}/PHUIKit/PHUIKit/Resources/PHStarRating.bundle
+${PODS_ROOT}/PHUIKit/PHUIKit/Resources/PHToast.bundle
+${PODS_ROOT}/PHUIKit/PHUIKit/Sources/PHRefreshView/Resources/ph_refresh_view.bundle
+${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle

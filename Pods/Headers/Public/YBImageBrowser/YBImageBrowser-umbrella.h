@@ -1,0 +1,1 @@
+../../../Target Support Files/YBImageBrowser/YBImageBrowser-umbrella.h

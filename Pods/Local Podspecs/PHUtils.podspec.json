@@ -1,0 +1,43 @@
+{
+  "name": "PHUtils",
+  "version": "0.1.0",
+  "summary": "A short description of PHUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/耿葱/PHUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "耿葱": "gengc@yxt.com"
+  },
+  "source": {
+    "git": "http://172.17.128.29/xxv2/xuanxing2-app/ios/sdk/PHUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PHUtils/Classes/*.{h,m}",
+  "libraries": [
+    "xml2",
+    "resolv",
+    "c++"
+  ],
+  "subspecs": [
+    {
+      "name": "PHUtils",
+      "source_files": "PHUtils/Classes/PHUtils/*.{h,m}"
+    },
+    {
+      "name": "PHCategory",
+      "source_files": "PHUtils/Classes/PHCategory/*",
+      "subspecs": [
+        {
+          "name": "PHAction",
+          "source_files": "PHUtils/Classes/PHCategory/PHAction/*.{h,m}"
+        }
+      ]
+    }
+  ]
+}
