@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+#  spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -142,6 +142,7 @@ Pod::Spec.new do |spec|
   spec.dependency "YBImageBrowser/NOSD"        # 图片浏览库(有动画效果)
   spec.dependency "SDWebImage"              # 图片下载框架
   spec.dependency "PHUtils"
+  spec.dependency "PHUIKit"
   
   spec.swift_version = '5.3'
 
