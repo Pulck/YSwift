@@ -1,0 +1,11 @@
+framework module YSwift {
+  umbrella header "YSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module YSwift.Swift {
+    header "YSwift-Swift.h"
+    requires objc
+}

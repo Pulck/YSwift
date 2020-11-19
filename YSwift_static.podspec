@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint YSwift_lib.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YSwift_static.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "YSwift_lib"
+  spec.name         = "YSwift_static"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of YSwift_lib."
+  spec.summary      = "A short description of YSwift_static."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -122,8 +122,8 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = "Framework/YSwift.framework"
-
+  
+  spec.vendored_frameworks = "lib/YSwift.framework"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
