@@ -8,17 +8,18 @@
 import UIKit
 import PHUIKit
 
-class SwiftViewController: UIViewController {
+public class SwiftViewController: UIViewController {
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         
         let button = PHButton(type: .big)
+        button.setTitle("Swift", for: .highlighted)
         button.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(button)
         button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         button.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
-
+    
 }
